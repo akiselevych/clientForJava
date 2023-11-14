@@ -1,0 +1,35 @@
+.container{
+
+}
+.title{
+  margin-bottom: 12px;
+}
+.form{
+  padding-top: 24px;
+}
+.label{
+  margin-bottom: 8px;
+  display: block;
+  padding-left: 4px;
+}
+.inputs{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+.input{
+
+}
+.submitWrapper{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+}
+.btn{
+  position: relative;
+}
+.createBtn{
+  margin-top: 18px;
+}

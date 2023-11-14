@@ -1,0 +1,43 @@
+@import "@/styles/variables";
+.container{
+  background-color: $blueColor;
+  height: 100vh;
+  max-width: 250px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 90px;
+  position: fixed;
+  z-index: 5;
+}
+.logoWrapper{
+  margin-bottom: 50px;
+}
+.navigation{
+  width: 100%;
+}
+.navLink{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  border-right: 6px solid transparent;
+}
+.activeNavLink{
+  background-color: white;
+  color: $lightBlue;
+  border-right: 6px solid #09AE07;
+}
+.navIcon{
+
+}
