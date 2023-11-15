@@ -22,6 +22,7 @@ const CustomersList = () => {
         if (!customers.length && loadStatus === "loading"){
             dispatch(fetchAllCustomers());
         }
+        //eslint-disable-next-line
     }, []);
 
     return (

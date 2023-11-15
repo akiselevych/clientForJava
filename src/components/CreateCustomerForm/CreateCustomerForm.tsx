@@ -31,6 +31,7 @@ const CreateCustomerForm: FC<Props> = ({setIsModalOpen}) => {
             setValue(`email`, customer.email);
             setValue(`id`, customer.id);
         }
+        //eslint-disable-next-line
     }, []);
 
     const {

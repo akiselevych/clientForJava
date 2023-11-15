@@ -62,7 +62,7 @@ const CustomerCard = ({customer}:{customer: Customer}) => {
                         <p className={styles.field}>№: {acc.accountNumber}</p>
                         <p className={styles.field}>Currency: {acc.currency}</p>
                     </div>
-                )) : <p className={styles.field}>"ZERO ACCOUNTS"</p>}
+                )) : <p className={styles.field}>&quot;ZERO ACCOUNTS&quot;</p>}
 
             </div>
             <div className={styles.optionsWrapper} onClick={() => setIsOptionsOpen(true)} ref={optionRef}>
